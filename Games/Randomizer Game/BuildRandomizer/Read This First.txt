@@ -1,0 +1,1 @@
+Play the game in window mode, the game doesn't have an exit button.
