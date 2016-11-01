@@ -3,16 +3,16 @@ using System.Collections;
 
 public class LevelSpawner : MonoBehaviour {
 
-    public GameObject[] levelPicks;
-    public GameObject[] triggerHits;
-    public GameObject[] lanterns;
-    public GameObject[] difficultyNumber;
+    private GameObject[] levelPicks;
+    private GameObject[] triggerHits;
+    private GameObject[] lanterns;
+    private GameObject[] difficultyNumber;
     public GameObject spawnPlatform;
-    public GameObject currentLevel;
-    public GameObject shopLevel, itemLevel, afterSpecialLevel, startLevel;
-    public Vector3 spawnPosition;
+    private GameObject currentLevel;
+    private GameObject shopLevel, itemLevel, afterSpecialLevel, startLevel;
+    private Vector3 spawnPosition;
     public GameObject levelManager;
-    public LevelRandomizer randomLevelMizer;
+    private LevelRandomizer randomLevelMizer;
     public int blockCounter, levelCounter, maxBlockAmount;
     public int randomNumLevel, randomNumShop;
     public int shopChance;
