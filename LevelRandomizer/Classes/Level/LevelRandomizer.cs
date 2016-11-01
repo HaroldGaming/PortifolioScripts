@@ -5,7 +5,7 @@ public class LevelRandomizer : MonoBehaviour {
 
     private int randomNum;
     public GameObject[] levelListEasy, levelListMedium, levelListHard, level2ListEasy, level2ListMedium, level2ListHard, level3ListEasy, level3ListMedium, level3ListHard;
-    public LevelSpawner levelSpawner;
+    private LevelSpawner levelSpawner;
     public GameObject player;
 
     void Start() {
