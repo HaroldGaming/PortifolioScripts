@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TurnPoint : MonoBehaviour {
 
-    public float rotateSpeed, turnTimer, increaseSpeedPerTurn, increaseIncreaseSpeedPerTurn;
+    public float rotateSpeed, turnTimer, increaseSpeedPerTurn, increaseIncreaseSpeedPerTurn; //rotation speed on turns and the time it maximum takes. and the speed increases you get on the turns.
     private float saveSpeed, timer;
     public bool rotate;
     private bool streamOn;
@@ -15,13 +15,13 @@ public class TurnPoint : MonoBehaviour {
     private LevelManager levelManager;
     public GameObject[] streamArray;
 
-	void Start () {
+	void Start () {//sets vars so i dont have to add them later, first is only for the start of the game
         first = true;
         levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
 	}
 
     void Update() {
-        if (rotate) {
+        if (rotate) {//rotate function for the player
             if(saveRotationPlayer.y <= saveRotationPlatform.y) {
                 Rotate(gameObject, platform);
             }
@@ -36,7 +36,7 @@ public class TurnPoint : MonoBehaviour {
     }
 
     void Stop() {
-        rotate = true;
+        rotate = true;// saves the speeds and increased them and stops the player for moving
         PlayerSpeed speed = GetComponent<PlayerSpeed>();
         speed.allowMove = false;
         saveSpeed = speed.speed;
@@ -44,7 +44,7 @@ public class TurnPoint : MonoBehaviour {
         speed.speedIncrease += increaseIncreaseSpeedPerTurn;
     }
 
-    void UnStop() {
+    void UnStop() {//lets the player move again and puts back the changed speeds
         PlayerSpeed speed = GetComponent<PlayerSpeed>();
         rotate = false;
         speed.allowMove = true;
@@ -52,19 +52,19 @@ public class TurnPoint : MonoBehaviour {
         gameObject.transform.rotation = platform.transform.rotation;
     }
 
-    void ActivateStreamList() {
+    void ActivateStreamList() {//is for the stream list in the particle tunnel with no obstacles. looks better this way
         for(int i = 0; i < streamArray.Length; i++) {
             streamArray[i].SetActive(true);
         }
     }
 
-    void DeActivateStreamList() {
+    void DeActivateStreamList() {///is for the stream list in the particle tunnel with no obstacles. looks better this way
         for (int i = 0; i < streamArray.Length; i++) {
             streamArray[i].SetActive(false);
         }
     }
 
-    void OnTriggerEnter(Collider turnPoint) {
+    void OnTriggerEnter(Collider turnPoint) {//once you get to the turn point it does the turn function, activates the player particles on the first turn of the game
         if (turnPoint.tag == "Turn") {
             if (!streamOn) {
                 ActivateStreamList();
@@ -85,7 +85,7 @@ public class TurnPoint : MonoBehaviour {
             Stop();
         }
 
-        if(turnPoint.tag == "CheckPoint") {
+        if(turnPoint.tag == "CheckPoint") {//is for when you reach the checkpoint.
             levelManager.CheckPointGet();
             WarpEffect();
         }
@@ -95,7 +95,7 @@ public class TurnPoint : MonoBehaviour {
         warpParticles.SetActive(true);
     }
 
-    void Rotate(GameObject player, GameObject platform) {
+    void Rotate(GameObject player, GameObject platform) {//simple lerp rotation
         transform.rotation = Quaternion.Lerp(player.transform.rotation, platform.transform.rotation, Time.deltaTime * rotateSpeed);
     }
 }

@@ -3,24 +3,24 @@ using System.Collections;
 
 public class PlayerSpeed : MonoBehaviour {
 
-    public float speed, speedIncrease, increaseIncreaseSpeed, maxSpeed;
-    public float[] maxSpeedArray, maxIncreaseArray;
+    public float speed, speedIncrease, increaseIncreaseSpeed, maxSpeed;// your movement speed and the speed it increases every second, this increase has a scaling too.
+    public float[] maxSpeedArray, maxIncreaseArray; //to set a sertain max speed for each 'level"
     public int levelCount;
     public bool allowMove;
 	
-	void Update () {
+	void Update () {//can disable movement if needed.
         if (allowMove) {
             Move();
             IncreaseSpeed();
         }
     }
 
-    void Move() {
+    void Move() {//forward movement.
         CheckSpeed();
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
-    void CheckSpeed() {
+    void CheckSpeed() {//allows the movement speed and increase speed to not go past a sertain amount.
         if(speed >= maxSpeedArray[levelCount]) {
             speed = maxSpeedArray[levelCount];
         }
@@ -30,7 +30,7 @@ public class PlayerSpeed : MonoBehaviour {
         }
     }
 
-    void IncreaseSpeed() {
+    void IncreaseSpeed() {//increases the speed and the scaling of the increasing.
         speed += speedIncrease * Time.deltaTime;
         speedIncrease += increaseIncreaseSpeed;
         if(speed >= maxSpeed) {
