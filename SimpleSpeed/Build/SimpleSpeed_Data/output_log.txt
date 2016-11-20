@@ -6,37 +6,952 @@ Direct3D:
     Vendor:   ATI
     VRAM:     1005 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.196 seconds
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeed_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.077 seconds
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Gebruiker\Desktop\Port Builds\SimpleSpeed\SimpleSpeeds\SimpleSpeed_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.799013 ms
+UnloadTime: 0.595420 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1b7c -> priority: 1 
+  Thread -> id: 24b0 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.371536 ms
+UnloadTime: 4.251667 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1229.
-Total: 0.709264 ms (FindLiveObjects: 0.080714 ms CreateObjectMapping: 0.023792 ms MarkObjects: 0.595721 ms  DeleteObjects: 0.008432 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 0.943576 ms (FindLiveObjects: 0.042766 ms CreateObjectMapping: 0.039152 ms MarkObjects: 0.845996 ms  DeleteObjects: 0.015359 ms)
+
+Main (5)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+ObstacleWall (9)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ObstacleWall (9)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ObstacleWall (15)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Movement.CheckMoveSpeed () [0x00000] in <filename unknown>:0 
+  at Movement.MoveControls () [0x00000] in <filename unknown>:0 
+  at Movement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Main (14)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+ObstacleWall (18)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+DarkHole (4)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Meteor(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.851719 ms
+UnloadTime: 1.600436 ms
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 271.
-Total: 4.430566 ms (FindLiveObjects: 0.051199 ms CreateObjectMapping: 0.015359 ms MarkObjects: 0.165344 ms  DeleteObjects: 4.198361 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 273.
+Total: 4.133607 ms (FindLiveObjects: 0.331290 ms CreateObjectMapping: 0.013552 ms MarkObjects: 0.182511 ms  DeleteObjects: 3.605349 ms)
 
