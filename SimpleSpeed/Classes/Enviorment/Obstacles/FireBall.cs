@@ -20,11 +20,4 @@ public class FireBall : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-    void OnTriggerEnter(Collider trigger) {//damages the player and destroy itself if it hits the player
-        if(trigger.tag == "Player") {
-            trigger.GetComponent<ObstacleManager>().Hit(damage);
-            Destroy(gameObject);
-        }
-    }
 }

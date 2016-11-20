@@ -12,7 +12,7 @@ public class TurningWall : MonoBehaviour {
         if (!check) { //does this at the start to save the rotations into variables.
             beforeRotate = transform.rotation;
             afterRotate = transform.rotation;
-            afterRotate.y += 90;
+            afterRotate.z += 90;
             check = true;
         }
 

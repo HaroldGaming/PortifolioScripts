@@ -57,12 +57,6 @@ public class ObstacleManager : MonoBehaviour {
         }
     }
 
-    void OnTriggerEnter(Collider trigger) {//checks if the player hits a obstacle
-        if (trigger.tag == "Obstacle") {
-            Hit(trigger.GetComponent<Obstacle>().damage);
-        }
-    }
-
     public void Hit(int damage) {// Calls on hit effect and does a calculation on how to substract from sertain stats.
         OnHitEffect();
         speed.speed = (speed.speed / 100 * (100 - reduceSpeedOnHitProcent));
